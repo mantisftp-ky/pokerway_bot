@@ -8,7 +8,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("📚 Канал", url="https://t.me/pokerway2020")],
         [InlineKeyboardButton("💬 Личный Telegram", url="https://t.me/AlkseyZ")],
-        [InlineKeyboardButton("🎥 Комментарий Алексея (avr0ra)", url="https://www.youtube.com/watch?v=SCYW7g3kE_c")],
     ]
 
     text = (
