@@ -7,6 +7,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("📚 Канал", url="https://t.me/pokerway2020")],
+        [InlineKeyboardButton("💬 Личный Telegram", url="https://t.me/AlkseyZ")],
     ]
 
     text = (
