@@ -9,7 +9,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("📚 Канал", url="https://t.me/pokerway2020")],
     ]
 
-   welcome_text = (
+    welcome_text = (
     "Привет!\n\n"
     "Добро пожаловать в официальный бот Pokerway.\n\n"
     "В канале публикуются:\n\n"
